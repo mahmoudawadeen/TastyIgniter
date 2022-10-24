@@ -135,6 +135,7 @@ return [
     */
 
     'providers' => array_merge(include(app_path('system/providers.php')), [
+        IgniterLabs\MultiSite\ServiceProvider::class,
         System\ServiceProvider::class,
     ]),
 
